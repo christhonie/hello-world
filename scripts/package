@@ -65,7 +65,7 @@ SUFFIX=""
 cd package
 
 TAG=${TAG:-${VERSION}${SUFFIX}}
-REPO=${REPO:-rancher}
+REPO=${REPO:-christhonie}
 
 if echo $TAG | grep -q dirty; then
     TAG=dev
