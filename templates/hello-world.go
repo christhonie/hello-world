@@ -5,7 +5,7 @@ const (
 
 	webHead = `<html>
   <head>
-    <title>Rancher</title>
+    <title>DeARX K8s</title>
     <link rel="icon" href="img/favicon.png">
     <style>
       body {
@@ -32,8 +32,8 @@ const (
   </head>
   <body>
     <img id="logo" src="img/rancher-logo.svg" alt="Rancher logo" width=400 />
-    <h1>Hello world!</h1>
-    <h3>My hostname is {{.Hostname}}</h3>`
+    <h1>DeARX Kubernetes App</h1>
+    <h3>This hostname is {{.Hostname}}</h3>`
 
 	webServices = `{{- $length := len .Services }} 
   {{- if gt $length 0 }}
