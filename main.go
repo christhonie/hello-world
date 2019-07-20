@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/christhonie/k8-hello-world/templates"
+	"github.com/christhonie/hello-world/templates"
 	"net/http"
 	"os"
 	"regexp"
